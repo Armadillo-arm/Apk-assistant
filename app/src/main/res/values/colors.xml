@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#FF4081</color>
+  <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+  <color name="window_background">#FFF5F5F5</color>
+  <color name="log_divider_tab_selector">#FFFFFF</color>
+  <color name="button">#ffffff</color>
+  <color name="white">#FFFFFF</color>
+  <color name="black">#000000</color>
+  <color name="bg_main">#EEEEEC</color>
+  <color name="bg_dialog">#80000000</color>
+  <color name="bg_tab_bar">#F8F8F8</color>
+  <color name="bg_btn_disable">#BFBFBF</color>
+  <color name="normal_font_color">#444444</color>
+  <color name="normal_hint_color">#8F8F8F</color>
+  <color name="white_half_alpha">#80ffffff</color>
+  <color name="text_color_gray">#808080</color>
+  <color name="text_color_black">#444444</color>
+  <color name="text_color_blue">#0076FF</color>
+  <color name="text_color_grid">#404040</color>
+  <color name="gamble_winner_bg">#FEFCE0</color>
+  <color name="comment_bg">#EEEEEC</color>
+  <color name="reserve_unable">#BBBBBB</color>
+  <color name="reserve_unable_bg">#E8E8E8</color>
+
+  <color name="voucher_color_red">#F07D6B</color>
+  <color name="voucher_color_yellow">#F5A623</color>
+  <color name="voucher_color_gray">#BFBFBF</color>
+
+  <color name="color_primary">#0FFFF0</color>
+  <color name="color_primary_selected">#800FFFF0</color>
+  <color name="bg_btn">#0000FF</color>
+  <color name="bg_btn_selected">#d00000FF</color>
+  <color name="bg_get_validate_btn">#889900</color>
+  <color name="bg_get_validate_btn_selected">#d0889900</color>
+</resources>

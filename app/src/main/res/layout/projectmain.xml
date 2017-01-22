@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp">
+
+
+    <RelativeLayout
+      android:layout_height="60dp"
+      android:layout_width="wrap_content"
+      android:orientation="horizontal">
+
+      <ImageView
+        android:layout_height="60dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="60dp"
+        android:id="@+id/p_icon"
+        android:onClick="OC_exit"/>
+
+      <TextView
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:id="@+id/p_apkname"
+        android:layout_toRightOf="@id/p_icon"
+        android:singleLine="true"
+        android:lines="1"/>
+
+      <TextView
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_below="@id/p_apkname"
+        android:layout_toRightOf="@id/p_icon"
+        android:id="@+id/p_packname"
+        android:maxLines="1"/>
+
+      <TextView
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/p_icon"
+        android:layout_below="@id/p_packname"
+        android:id="@+id/p_mianactivity"
+        android:textColor="#FF0F00"/>
+
+    </RelativeLayout>
+
+    
+
+	</android.support.v7.widget.CardView>
+
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="match_parent"
+				android:id="@+id/p_package"
+				android:singleLine="true"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:id="@+id/p_type"
+				android:singleLine="true"/>
+
+		</LinearLayout>
+
+	
+
+	<HorizontalScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal">
+
+			<Button
+				android:layout_height="40dp"
+				android:text="全局工具"
+				android:layout_width="160dp"
+				android:id="@+id/p_AppUtils"
+				android:onClick="OC_apputils"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="代码操作"
+				android:layout_width="160dp"
+				android:id="@+id/p_code"
+				android:onClick="OC_code"/>
+
+		</LinearLayout>
+
+	</HorizontalScrollView>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/comment_bg"
+	android:orientation="vertical">
+
+	<android.support.v4.widget.SwipeRefreshLayout
+		android:id="@+id/srl"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<android.support.v4.widget.NestedScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="250dp"
+					android:background="@drawable/mini"
+					android:gravity="center"
+					android:orientation="vertical"
+					android:padding="15dp">
+
+					<ImageView
+						android:id="@+id/iv_head"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:scaleType="centerCrop"
+						android:src="@drawable/ic_qq"/>
+
+					<TextView
+						android:id="@+id/tv_nickname"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="3dp"
+						android:singleLine="true"
+						android:text="无昵称"
+						android:textAllCaps="false"
+						android:textColor="@color/black"/>
+
+					<TextView
+						android:id="@+id/tv_comment"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:maxLines="2"
+						android:text="这个人很懒。。。"/>
+
+					<TextView
+						android:id="@+id/tv_qianbao"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:maxLines="2"
+						android:text="钱包:0.00"
+						android:layout_marginTop="8dp"/>
+
+				</LinearLayout>
+
+				<RelativeLayout
+					android:id="@+id/rl_sex"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="5dp"
+					android:background="@color/white">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerVertical="true"
+						android:layout_marginLeft="15dp"
+						android:text="性别"/>
+
+					<TextView
+						android:id="@+id/tv_sex"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:layout_marginRight="15dp"
+						android:background="@color/white"
+						android:gravity="center_vertical"
+						android:text=""/>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:id="@+id/rl_age"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="5dp"
+					android:background="@color/white">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerVertical="true"
+						android:layout_marginLeft="15dp"
+						android:text="年龄"/>
+
+					<TextView
+						android:id="@+id/tv_age"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:layout_marginRight="15dp"
+						android:background="@color/white"
+						android:gravity="center_vertical"
+						android:text=""/>
+
+				</RelativeLayout>
+
+				<android.support.v7.widget.AppCompatTextView
+					android:id="@+id/tv_bind_email"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="5dp"
+					android:background="@color/white"
+					android:gravity="center_vertical"
+					android:paddingLeft="15dp"
+					android:text="@string/activity_bind_email"/>
+
+				<android.support.v7.widget.AppCompatTextView
+					android:id="@+id/tv_change_pwd"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="5dp"
+					android:background="@color/white"
+					android:gravity="center_vertical"
+					android:paddingLeft="15dp"
+					android:text="@string/activity_change_password"/>
+
+				<android.support.v7.widget.AppCompatTextView
+					android:id="@+id/tv_reset_pwd"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="5dp"
+					android:background="@color/white"
+					android:gravity="center_vertical"
+					android:paddingLeft="15dp"
+					android:text="@string/activity_reset_password"/>
+
+				<android.support.v7.widget.AppCompatTextView
+					android:id="@+id/tv_logout"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="5dp"
+					android:background="@color/white"
+					android:gravity="center_vertical"
+					android:paddingLeft="15dp"
+					android:text="@string/fragment_login_out"/>
+
+			</LinearLayout>
+
+		</android.support.v4.widget.NestedScrollView>
+
+	</android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
+

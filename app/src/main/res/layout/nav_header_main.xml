@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="180dp"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:paddingTop="25dp"
+	android:theme="@style/ThemeOverlay.AppCompat.Dark"
+	android:background="@drawable/miui">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_marginBottom="15dp"
+		android:layout_height="wrap_content"
+		android:layout_margin="15dp">
+
+		<com.perfume.UI.RoundImageView
+			android:layout_width="75dp"
+			android:src="@drawable/tou"
+			android:layout_height="75dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/user"
+			android:id="@+id/user"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="end"
+		android:id="@+id/nav_time"
+		android:text="一梦十年两茫茫 Perfume"
+		android:layout_margin="15dp"/>
+
+</LinearLayout>
+

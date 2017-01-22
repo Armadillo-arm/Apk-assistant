@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:title="User">
+    <menu>
+
+      <item
+        android:id="@+id/nav_user"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="我的信息" />
+      <item
+        android:id="@+id/nav_guanshui"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="灌水社区" />
+    </menu>
+  </item>
+
+  <item android:title="Perfume">
+    <menu>
+
+      <item
+        android:id="@+id/nav_apktool"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="反编译" />
+      <item
+        android:id="@+id/nav_pluign"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="插件中心" />
+      <item
+        android:id="@+id/nav_voide"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="视频教程" />
+      <item
+        android:id="@+id/nav_aide"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="开发视频" />
+      <item
+        android:id="@+id/nav_mov"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="在线电影" />
+      <item
+        android:id="@+id/nav_xp"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="屏幕录制" />
+      <item
+        android:id="@+id/nav_fk"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="反馈Bug" />
+      <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="分享软件" />
+      <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_google_circles_extended"
+        android:title="关于软件" />
+    </menu>
+  </item>
+
+</menu>
